@@ -1,0 +1,402 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#top {
+    height: 630px;
+
+}
+
+#portion {
+    height: 400px;
+
+}
+#second {
+    height: 420px;
+
+}
+
+body {
+    background-image: url(../image/bwan.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+	background-size: contain;
+    overflow-x: hidden;
+    height: 280px;
+    /*background-color:#dadcde;*/
+}
+
+  
+  /* head navbar */
+  .header {
+    padding-bottom: 80px;
+}
+
+.navbar {
+    background-color: #1d1d1d;
+    top: 0px;
+    padding: 25px 0;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+  position: fixed;
+  color: #fff;
+  opacity: .4;
+  position: relative;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 30px;
+  margin-left: 30px;
+  transition: transform .3s;
+  letter-spacing: 2px;
+  
+}
+
+.logo:hover {
+	transform: scale(1.09);
+	letter-spacing: 2.4px;
+}
+
+.navbar ul {
+	display: inline-flex;
+  }
+
+.navbar ul li {
+	list-style: none;
+	padding: 5px;
+	margin: 0 20px;
+  }
+
+.navbar ul li a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #ffff;
+    text-transform: uppercase;
+    transition: 0.5s;   
+}
+
+.navbar ul li a:hover{
+    color: #ff7200;
+}
+  
+  
+  .logo:hover {
+    transform: translateY(-10px);
+    text-shadow: 2px 2px 2px #fff;
+  }
+
+
+h1 {
+	float: right;
+	color: #fff;
+	margin: 5px 70px;
+	font-weight: bold;
+	font-size: 70px;
+}
+
+h3 {
+    font-weight: lighter;
+    letter-spacing: px;
+}
+
+.text {
+	margin: 70px 70% 0px;
+	text-align: justify;
+	color: #fff;
+	font-size: 17px;
+	width: 400px;
+	letter-spacing: 2px;
+}
+
+.buttn {
+	text-align: center;
+	padding: 20px;	
+}
+
+button:hover {
+	background-color: #ff7200;
+	color: black;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	border-color: #ff7200;
+	transform: scale(1.08);
+}
+
+.text button {
+	font-size: 18px;
+	padding: 20px;
+	width: 130px;
+	border-radius: 15px;
+	background-color: black;
+    font-weight: bold;
+	color: #fff;
+	font-family:'Courier New', Courier, monospace;
+	letter-spacing: 2px;
+	transition: transform .3s;
+	box-shadow: 0 8px 10px #484144;
+	border-color: rgba(118, 3, 129, 0.625);
+}
+
+.hat {
+    height: 700px;
+}
+.inner {
+    background-color: #dadcde;
+}
+.inner img {
+    width: 300px;
+    height: 300px;
+    pointer-events: none;
+}
+.neil img{
+    float: left;
+    margin: 5px 15px;
+    border-radius: 15px;
+}
+
+.neil {
+	float: left;
+	color: black;
+	width: 700px;
+}
+
+.buzz {
+	float: left;
+	color: black;
+	width: 715px;
+}
+
+.content p {
+	font-size: 16px;
+	text-align: justify;
+}
+
+.first div {
+	float: left;
+}
+
+.content div {
+	margin: 20px 0px 10px 35px;
+}
+
+.content img {
+	float: left;
+	margin-right: 15px;
+	border-radius: 30px;
+	box-shadow: 0 12px 10px #484147;
+	transition: transform .2s;
+}
+
+.content img:hover {
+	transform: scale(1.03);
+}
+
+.inner h3 {
+    padding: 15px 0 0 60px;
+    font-weight:bolder;
+    letter-spacing: 2px;
+    text-align:center;
+    transition: transform .2s;
+}
+
+.inner h3 a:link {
+    text-decoration: none;
+}
+
+.inner h3 a:visited {
+    text-decoration: none;
+}
+
+.inner h3:hover {
+    transform: scale(1.08);
+	transition-duration: 0.4s;
+}
+
+.inner h3 a:hover {
+    transform: scale(1.08);
+    color: #ff7200;
+}
+
+#see {display: none;}
+#open {display: none;}
+
+
+.content button {
+    border-radius: 6px;
+    padding: 2px;
+}
+
+.structure {
+    height: 500px;
+    width: 1600px;
+    background-color: rgb(4, 4, 36);
+    display: inline-flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.structure img {
+    position: absolute;
+    margin-top: 40px;
+    padding-left: 35px;
+}
+
+.struct-text {
+    font-size: 18px;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 100px;
+    color: #fff;
+    text-shadow: 1px 1px 3px #acacad;
+    width: 60%;
+    text-align: justify;
+}
+
+.info h1 {
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 20px;
+    font-size: 60px;
+}
+
+.structbtn {
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    margin-top: 370px;
+    margin-left: 500px;
+    background-color: #acacad;
+    color: #1d1d1d;
+    font-weight: 600;
+    font-size: 1rem;
+    position: absolute;
+}
+
+#third {
+    height: 500px;
+    width: 1600px;
+    background-color: #1d1d1d;
+    display: inline-flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.ti-tle {
+    font-size: 4rem;
+    margin-top: 120px;
+    float: left;
+    text-shadow: 2px 2px 3px #dadcde;
+}
+
+.disco-text {
+    width: 600px;
+    margin-top: 30px;
+    margin-left: 70px;
+    font-size: 24px;
+    color: #fff;
+    text-shadow: 3px 3px 3px black;
+}
+
+.discover {
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    margin-left: 80px;
+    background-color: #fff;
+    color: #1d1d1d;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+#fourth {
+    height: 400px;
+    width: 1600px;
+    background-color:#fff;
+    display: inline-flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.ti-tle1 {
+    color: #1d1d1d;
+    text-shadow: 3px 3px 3px #acacad;
+    font-size: 4rem;
+    margin-top: 50px;
+}
+
+.zodiac-text {
+    width: 600px;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-left: 70px;
+    color: #1d1d1d;
+    text-shadow: 3px 3px 3px #acacad;
+}
+
+.zodiacbtn {
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    margin-left: 80px;
+    background-color: blue;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+#fifth {
+    height: 400px;
+    width: 1600px;
+    background-color: rgb(4, 4, 36);
+    display: inline-flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.ti-tle2 {
+    color: #fff;
+    text-shadow: 3px 3px 3px #1d1d1d;
+    font-size: 4rem;
+    margin-top: 50px;
+}
+
+.about-text {
+    width: 600px;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-left: 70px;
+    color: #fff;
+    text-shadow: 2px 2px 3px #acacad;
+}
+
+.aboutbtn {
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    margin-top: 30px;
+    margin-left: 80px;
+    background-color: #acacad;
+    color: #1d1d1d;
+    font-weight: 600;
+    font-size: 1rem;
+}

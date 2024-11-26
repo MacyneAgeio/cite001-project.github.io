@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>Home</title>
+</head>
+<body>
+    <div class="header" >
+        <div class="navbar">
+          <a href="#" class="logo">CelesExpedition</a>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="achievements.html">Achievements</a></li>
+            <li><a href="moon.html">Structure Of The Moon</a></li>
+            <li><a href="discoveries.html">Discoveries</a></li> 
+            <li><a href="zodiac.html">Zodiac Signs</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+          </ul>
+        </div>
+    </div>
+    <div class="hat">
+
+		<div class="text" id="top">
+            <h1>αποκαλύπτω</h1>
+            <h3>scoprire/descubrir/раскрыть/uncover</h3>
+            <br>The unknowns of Human lifeform, the extension of the universe at its peak. Discover new heights and feats of mankind into a glorious discovery of celestial bodies.
+
+		    <div class="buttn">
+            <a href="#portion"><button><b>Descend</b></button></a>
+            </div>
+        </div>
+	
+            <div class="inner" id="portion">
+            
+                <h3><a href="achievements.html">NOTABLE MOON WALKERS</a></h3> 
+                <div class="first">
+                <div class="content">
+                
+                <div class="neil">
+                <img src="../image/Neil.jpg">
+                <h2>Neil Alden Armstrong (1930-2012)<hr></h2>
+                <p>The first man to walk on the Moon. Boarded on the Apollo 11, Gemini 8 space mission as the Commanding officer. And on July 20, 1969, it was then he landed on the surface of the moon, <span id="dots">...</span><span id="see">claiming it as the first step of a historical event. Prior to embarking his career as an Astronaut, he was previously an engineer, naval aviator, test pilot. He later pursued his master's degree in Aerospace engineering and took his profession as a university professor in Cincinnati, Ohio. <br> <br> <b>Awards and Honors:</b> Presidential Medal of Freedom, Collier Trophy, Congressional Space Medal of Honor, Goddard Memorial Trophy. </span></p>
+                <button onclick="info()" id="btn">See more</button>
+                </div>
+                
+                <div class="buzz">
+                <img src="../image/buzz.jpg">
+                <h2>Edwin "Buzz" Aldrin (1930)<hr></h2>
+                <p>He was the second person to step foot on the moon. An american astronaut who boarded the same ship as Neil A. Armstrong, NASA's Apollo 11, Gemini 8 mission. He was a distinguishable figure in the U.S. <span id="spots">...</span><span id="open"> Air Force, whereto he participated in the Korean War. He received his Ph.D. in Austronautics from the Massachusetts Institute of Technology. <br> <br> <b>Awards and Honors:</b> Presidential Medal for Freedom, Collier Trophy, Goddard Memorial Trophy, the Harmon International Trophy, Air Medal, NASA Distinguished Service Medal, Distinguished Service Medal, Hubbard Medal, NASA Space Flight Medal, Distinguished Flying Cross. </span></p>
+                <button onclick="info()" id="btn2">See more</button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+        <div class="structure">
+            <img src="../image/core.png" id="core" height="400px" width="400px">
+                
+            <div class="info" style="margin-bottom: 30px;"><h1>Structure</h1>
+                <div class="struct-text">
+                Much like the Earth, the Moon also composes similar attributes such as the core, mantle, and crust.
+                <br><br>
+                
+                <h2>Crust:</h2> The moon's outermost layer, known as the crust, is between 20 and 40 miles (30 and 60 kilometers) thick. It is mostly composed of stony elements such as calcium, magnesium, oxygen, silicon, and aluminum. The lunar surface of the moon is then distinguised into two regions: <b>The Lunar Highlands</b>, which is the lighter areas of the moon. And <b>Maria</b>, The darker patches which were formed through ancient volcanic activity.
+                <br><br>
+ 
+                <h2>Mantle:</h2> The lunar mantle is located several hundred miles below the surface and is located under the crust. And it is composed of iron and silicates, among other denser rocks and likely contains minerals like olivine, pyroxene, and feldspar.
+                <br><br>
+                </div>
+
+                <button class="structbtn" onClick="myDirect2()">See More</button>
+            </div>
+        </div>
+
+        
+        <div class="disco" id="third">  
+            <h1 class="ti-tle">Discoveries</h1>
+
+            <div class="disco-text">
+                <p>
+                    As we explore our universe to expand our knowledge outside Earth, seeking for new form of life or a new planet that could
+                    potentially host life or be habitable like Earth. Come join us in discovering new more things outside our universe..
+                </p>
+            </div>
+
+            <button class="discover" onClick="myDirect3()">Explore More</button>
+        </div>
+
+        <div class="zodiac" id="fourth">
+            <h1 class="ti-tle1">Zodiac Sign</h1>
+
+            <div class="zodiac-text">
+                <p>
+                    Do you have any idea about Zodiac Sign? Are you curious about your astrological sign? If so, we have here our webpage
+                    about Zodiac Signs, if you wanna know more, just click the button below..
+                </p>
+            </div>
+
+            <button class="zodiacbtn" onClick="myDirect4()">Learn More</button>
+        </div>
+
+        <div class="about" id="fifth">
+            <h1 class="ti-tle2">About Us</h1>
+
+            <div class="about-text">
+                <p>
+                    Come and see the background information about our web developer, try to learn more about their personal life.
+                </p>
+            </div>
+
+            <button class="aboutbtn" onClick="myDirect5()">Learn More</button>
+        </div>
+
+
+    </div>  
+</div>
+<script>
+    function myDirect2() {
+        window.location.href = "moon.html";
+    }
+    function myDirect3() {
+        window.location.href = "discoveries.html";
+    }
+    function myDirect4() {
+        window.location.href = "zodiac.html";
+    }
+    function myDirect5() {
+        window.location.href = "about-us.html";
+    }
+</script>
+</body>
+</html>

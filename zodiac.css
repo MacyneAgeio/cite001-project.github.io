@@ -1,0 +1,503 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+}
+/* head navbar */
+
+body {
+    background-color: rgb(3, 6, 6);
+    overflow-x: hidden;
+  }
+  
+  /* head navbar */
+  
+  .header {
+    padding-bottom: 80px;
+}
+
+.navbar {
+    background-color: #1d1d1d;
+    top: 0px;
+    padding: 25px 0;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+  position: fixed;
+  color: #fff;
+  opacity: .4;
+  position: relative;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 30px;
+  margin-left: 30px;
+  transition: transform .3s;
+  letter-spacing: 2px;
+  
+}
+
+.logo:hover {
+	transform: scale(1.09);
+	letter-spacing: 2.4px;
+}
+
+.navbar ul {
+	display: inline-flex;
+  }
+
+.navbar ul li {
+	list-style: none;
+	padding: 5px;
+	margin: 0 20px;
+  }
+
+.navbar ul li a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #ffff;
+    text-transform: uppercase;
+    transition: 0.5s;   
+}
+
+.navbar ul li a:hover{
+    color: #ff7200;
+}
+  
+  .logo:hover {
+    transform: translateY(-10px);
+    text-shadow: 2px 2px 2px #fff;
+  }
+
+
+/* Content */
+
+.title {
+    height: 100px;
+    width: 1553px;
+    background-color: #1d1d1d;
+    color: #fff;
+    margin-bottom: 4px;
+}
+
+.title h1 {
+    font-size: 4rem;
+    padding: 12px 0;
+    text-align: center;
+    text-shadow: 2px 2px 3px #ACACAD;
+}
+
+.content {
+    height: 320px;
+    width: 1553px;
+    background-color: #1d1d1d;
+    position: absolute;
+}
+
+.content h2 {
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 70px;
+    font-size: 3rem;
+}
+
+.content p {
+    color: #fff;
+    width: 1400px;
+    margin-top: 20px;
+    margin-left: 70px;
+    font-size: 24px;
+    position: relative;
+}
+
+.zodiac-content {
+    background-image: url(../image/space.jpg);
+    height: 5350px;
+    width: 1553px;
+    margin-top: 320px;
+    position: absolute;
+    background-color: #FFFFED;
+    flex-direction: column;
+    display: inline-flex;
+}
+
+.zodiac1-2 {
+    display: inline-flex;
+    position: relative;
+}
+
+.zodiac1-2 img{
+    width: 400px;
+    height: 400px;
+}
+
+.aries {
+    margin-top: 70px;
+    margin-left: 230px;
+    width: 500px;
+    color: #fff;
+    font-size: 4rem;
+    position: absolute;
+}
+
+.ariesbg {
+    width: 700px;
+    margin-top: 150px;
+    margin-left: 100px;
+    position: absolute;
+}
+
+.aries-text {
+    width: 500px;
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 570px;
+    margin-left: 160px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.taurus {
+    margin-top: 70px;
+    margin-left: 1100px;
+    width: 500px;
+    color: #fff;
+    font-size: 4rem;
+    position: absolute;
+}
+
+.taurusbg {
+    width: 700px;
+    margin-top: 150px;
+    margin-left: 1000px;
+    position: absolute;
+}
+
+.taurus-text {
+    width: 500px;
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 566px;
+    margin-left: 1100px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.zodiac3-4 {
+    margin-top: 900px;
+    display: inline-flex;
+    position: relative;
+}
+
+.zodiac3-4 img{
+    width: 400px;
+    height: 400px;
+}
+
+.gemini {
+    margin-top: 70px;
+    margin-left: 200px;
+    width: 500px;
+    color: #fff;
+    font-size: 4rem;
+    position: absolute;
+}
+
+.geminibg {
+    width: 700px;
+    margin-top: 150px;
+    margin-left: 100px;
+    position: absolute;
+}
+
+.gemini-text {
+    width: 500px;
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 570px;
+    margin-left: 190px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.cancer {
+    margin-top: 70px;
+    margin-left: 1110px;
+    width: 500px;
+    color: #fff;
+    font-size: 4rem;
+    position: absolute;
+}
+
+.cancerbg {
+    width: 700px;
+    margin-top: 150px;
+    margin-left: 1000px;
+    position: absolute;
+}
+
+.cancer-text {
+    width: 500px;
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 570px;
+    margin-left: 1090px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.zodiac5-6 {
+    margin-top: 900px;
+    display: inline-flex;
+    position: relative;
+}
+
+.zodiac5-6 img{
+    width: 400px;
+    height: 400px;
+}
+
+.leo {
+    margin-top: 70px;
+    margin-left: 250px;
+    width: 500px;
+    color: #fff;
+    font-size: 4rem;
+    position: absolute;
+}
+
+.leobg {
+    width: 700px;
+    margin-top: 150px;
+    margin-left: 100px;
+    position: absolute;
+}
+
+.leo-text {
+    width: 500px;
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 570px;
+    margin-left: 166px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.virgo {
+    margin-top: 70px;
+    margin-left: 1120px;
+    width: 500px;
+    color: #fff;
+    font-size: 4rem;
+    position: absolute;
+}
+
+.virgobg {
+    width: 700px;
+    margin-top: 150px;
+    margin-left: 1000px;
+    position: absolute;
+}
+
+.virgo-text {
+    width: 500px;
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 570px;
+    margin-left: 1030px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.zodiac7-8 {
+    margin-top: 900px;
+    display: inline-flex;
+    position: relative;
+}
+
+.zodiac7-8 img{
+    width: 400px;
+    height: 400px;
+}
+
+.libra {
+    margin-top: 70px;
+    margin-left: 230px;
+    width: 500px;
+    color: #fff;
+    font-size: 4rem;
+    position: absolute;
+}
+
+.librabg {
+    width: 700px;
+    margin-top: 150px;
+    margin-left: 100px;
+    position: absolute;
+}
+
+.libra-text {
+    width: 500px;
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 570px;
+    margin-left: 116px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.scorpio {
+    margin-top: 70px;
+    margin-left: 1100px;
+    width: 500px;
+    color: #fff;
+    font-size: 4rem;
+    position: absolute;
+}
+
+.scorpiobg {
+    width: 700px;
+    margin-top: 150px;
+    margin-left: 1000px;
+    position: absolute;
+}
+
+.scorpio-text {
+    width: 500px;
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 570px;
+    margin-left: 1025px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.zodiac9-10 {
+    margin-top: 900px;
+    display: inline-flex;
+    position: relative;
+}
+
+.zodiac9-10 img{
+    width: 400px;
+    height: 400px;
+}
+
+.sagittarius {
+    margin-top: 70px;
+    margin-left: 150px;
+    width: 500px;
+    color: #fff;
+    font-size: 4rem;
+    position: absolute;
+}
+
+.sagittariusbg {
+    width: 700px;
+    margin-top: 150px;
+    margin-left: 100px;
+    position: absolute;
+}
+
+.sagittarius-text {
+    width: 500px;
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 570px;
+    margin-left: 106px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.capricorn {
+    margin-top: 70px;
+    margin-left: 1070px;
+    width: 500px;
+    color: #fff;
+    font-size: 4rem;
+    position: absolute;
+}
+
+.capricornbg {
+    width: 700px;
+    margin-top: 150px;
+    margin-left: 1000px;
+    position: absolute;
+}
+
+.capricorn-text {
+    width: 500px;
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 570px;
+    margin-left: 1024px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.zodiac11-12 {
+    margin-top: 900px;
+    display: inline-flex;
+    position: relative;
+}
+
+.zodiac11-12 img{
+    width: 400px;
+    height: 400px;
+}
+
+.aquarius {
+    margin-top: 70px;
+    margin-left: 174px;
+    width: 500px;
+    color: #fff;
+    font-size: 4rem;
+    position: absolute;
+}
+
+.aquariusbg {
+    width: 700px;
+    margin-top: 150px;
+    margin-left: 100px;
+    position: absolute;
+}
+
+.aquarius-text {
+    width: 500px;
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 570px;
+    margin-left: 120px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.pisces {
+    margin-top: 70px;
+    margin-left: 1120px;
+    width: 500px;
+    color: #fff;
+    font-size: 4rem;
+    position: absolute;
+}
+
+.piscesbg {
+    width: 700px;
+    margin-top: 150px;
+    margin-left: 1000px;
+    position: absolute;
+}
+
+.pisces-text {
+    width: 500px;
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 570px;
+    margin-left: 1040px;
+    font-weight: bold;
+    position: absolute;
+}

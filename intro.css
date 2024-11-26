@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {  
+    background-image: url(../image/blhl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button {
+    height: 228px;
+    width: 220px;
+    border: none;
+    border-radius: 500px;
+    margin-top: 300px;
+    margin-left: 420px;
+    background-color: transparent;
+    color: #4a4a4a;
+    cursor: pointer;
+    font-size: 50px;
+    font-weight: 600;
+    text-shadow: 4px 2px 2px #ACACAD;
+    box-shadow: 17px 12px 25px 3px;
+}
+
+.button:hover {
+    transform: translateY(-8px);
+    background-color: transparent;
+    color: #1d1d1d;
+}

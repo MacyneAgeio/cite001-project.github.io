@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* head navbar */
+
+body {
+  background-color: rgb(3, 6, 6);
+  overflow-x: hidden;
+}
+
+/* head navbar */
+
+.header {
+  padding-bottom: 80px;
+}
+
+.navbar {
+  background-color: #1d1d1d;
+  top: 0px;
+  padding: 25px 0;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+position: fixed;
+color: #fff;
+opacity: .4;
+position: relative;
+text-decoration: none;
+font-weight: 600;
+font-size: 30px;
+margin-left: 30px;
+transition: transform .3s;
+letter-spacing: 2px;
+
+}
+
+.logo:hover {
+transform: scale(1.09);
+letter-spacing: 2.4px;
+}
+
+.navbar ul {
+display: inline-flex;
+}
+
+.navbar ul li {
+list-style: none;
+padding: 5px;
+margin: 0 20px;
+}
+
+.navbar ul li a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #ffff;
+  text-transform: uppercase;
+  transition: 0.5s;   
+}
+
+.navbar ul li a:hover{
+  color: #ff7200;
+}
+
+.logo:hover {
+  transform: translateY(-10px);
+  text-shadow: 2px 2px 2px #fff;
+}
+
+.info {
+    margin-top: 20px;
+    color: #fff;
+    width: 80%;
+}
+
+#core {
+    margin: 20px 15px 0;
+    float: left;
+    height: 540px;
+    width: 560px;
+}
+
+.structure h1 {
+    padding-top: 50px;
+}
+
+#struct {
+  height: 700px;
+}
+
+.carrousel img {
+  float: left;
+  height: 320px;
+  width: 320px;
+  margin-left: 1%;
+}
+
+.text {
+  float:left;
+  margin-top: 10%;
+  margin-right: 10px;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 1.5px;
+}
+
+.carrousel h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 3%;
+  letter-spacing: 5px;
+}
+
+#cara {
+  height: 150%;
+}

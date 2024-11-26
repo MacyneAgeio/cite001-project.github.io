@@ -1,0 +1,433 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family:'Times New Roman', Times, serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* head navbar */
+
+.header {
+  background-color: rgb(34, 33, 33);
+  padding: 22px;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #fff;
+  position: relative;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 30px;
+  margin-left: 30px;
+  opacity: .4;
+}
+
+.navbar ul {
+  display: inline-flex;
+}
+
+.navbar ul li {
+  list-style: none;
+  padding: 15px;
+  margin: 0 20px;
+}
+
+.navbar ul li a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #ffff;
+  text-transform: uppercase;
+  transition: 0.5s;   
+}
+
+.navbar ul li a:hover{
+  color: #ff7200;
+}
+
+.logo:hover {
+  transform: translateY(-10px);
+  text-shadow: 2px 2px 2px #fff;
+}
+
+  /* dropdown */
+  
+  ul.dropdown {
+    display: none;
+  }
+  
+  .navbar ul li:hover ul.dropdown {
+    padding: 10px;
+    display: block;
+    position: absolute;
+    background-color:rgb(20, 20, 20);
+    margin-top: 15px;
+  }
+  
+  .navbar ul li:hover ul.dropdown li{
+    padding: 10px;
+    border-bottom: 1px dashed #fff;
+    background: transparent;
+  
+  }
+  
+  .navbar ul li:hover ul.dropdown li:last-child {
+    border-bottom: none;
+  }
+  
+/* Contents */
+
+.mercury {
+  background: linear-gradient(rgb(185, 36, 36), rgb(78, 39, 39), #181717);
+  background-image: url(../image/space.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+  width: 1903px;
+}
+
+.mercury-container {
+  position: flex;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin-top: 80px;
+  margin-left: 120px;
+  font-size: 3em;
+  color: #fff;
+  text-shadow: 2px 2px 2px #ACACAD;
+}
+
+.mercury-content {
+  position: flex;
+  display: inline-flex;
+}
+
+.mercury-content .mercury-text{
+  width: 500px;
+  margin-top: 30px;
+  margin-left: 100px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 1px 1px 2px #ACACAD;
+  padding: 20px;
+}
+
+.mercury-content .mercimage {
+  margin-top: 60px;
+  margin-left: 250px;
+}
+
+.venus {
+  background-image: url(../image/space.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+  width: 1903px;
+}
+
+.venus-container {
+  position: flex;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin-top: 80px;
+  margin-left: 120px;
+  font-size: 3em;
+  color: #fff;
+  text-shadow: 2px 2px 2px #ACACAD;
+}
+
+.venus-content {
+  position: flex;
+  display: inline-flex;
+}
+
+.venus-content .venus-text{
+  width: 500px;
+  margin-top: 30px;
+  margin-left: 100px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 1px 1px 2px #ACACAD;
+  padding: 20px;
+}
+
+.venus-content .venimage {
+  margin-top: 60px;
+  margin-left: 250px;
+}
+
+.earth{
+  background-image: url(../image/space.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+  width: 1903px;
+}
+
+.earth-container {
+  position: flex;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin-top: 80px;
+  margin-left: 120px;
+  font-size: 3em;
+  color: #fff;
+  text-shadow: 2px 2px 2px #ACACAD;
+}
+
+.earth-content {
+  position: flex;
+  display: inline-flex;
+}
+
+.earth-content .earth-text{
+  width: 500px;
+  margin-top: 30px;
+  margin-left: 100px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 1px 1px 2px #ACACAD;
+  padding: 20px;
+}
+
+.earth-content .earimage {
+  margin-top: 60px;
+  margin-left: 250px;
+}
+
+.mars{
+  background-image: url(../image/space.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  width: 1903px;
+}
+
+.mars-container {
+  position: flex;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin-top: 80px;
+  margin-left: 120px;
+  font-size: 3em;
+  color: #fff;
+  text-shadow: 2px 2px 2px #ACACAD;
+}
+
+.mars-content {
+  position: flex;
+  display: inline-flex;
+}
+
+.mars-content .mars-text{
+  width: 500px;
+  margin-top: 30px;
+  margin-left: 100px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 1px 1px 2px #ACACAD;
+  padding: 20px;
+}
+
+.mars-content .marimage {
+  margin-top: 60px;
+  margin-left: 250px;
+}
+  
+.jupiter{
+  background-image: url(../image/space.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+  width: 1903px;
+}
+
+.jupiter-container {
+  position: flex;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin-top: 80px;
+  margin-left: 120px;
+  font-size: 3em;
+  color: #fff;
+  text-shadow: 2px 2px 2px #ACACAD;
+}
+
+.jupiter-content {
+  position: flex;
+  display: inline-flex;
+}
+
+.jupiter-content .jupiter-text{
+  width: 500px;
+  margin-top: 30px;
+  margin-left: 100px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 1px 1px 2px #ACACAD;
+  padding: 20px;
+}
+
+.jupiter-content .jupimage {
+  margin-top: 60px;
+  margin-left: 250px;
+}
+  
+.saturn{
+  background-image: url(../image/space.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+  width: 1903px;
+}
+
+.saturn-container {
+  position: flex;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin-top: 80px;
+  margin-left: 120px;
+  font-size: 3em;
+  color: #fff;
+  text-shadow: 2px 2px 2px #ACACAD;
+}
+
+.saturn-content {
+  position: flex;
+  display: inline-flex;
+}
+
+.saturn-content .saturn-text{
+  width: 500px;
+  margin-top: 30px;
+  margin-left: 100px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 1px 1px 2px #ACACAD;
+  padding: 20px;
+}
+
+.saturn-content .satimage {
+  margin-top: 0px;
+  margin-left: 250px;
+}
+
+.uranus{
+  background-image: url(../image/space.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+  width: 1903px;
+}
+
+.uranus-container {
+  position: flex;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin-top: 80px;
+  margin-left: 120px;
+  font-size: 3em;
+  color: #fff;
+  text-shadow: 2px 2px 2px #ACACAD;
+}
+
+.uranus-content {
+  position: flex;
+  display: inline-flex;
+}
+
+.uranus-content .uranus-text{
+  width: 500px;
+  margin-top: 30px;
+  margin-left: 100px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 1px 1px 2px #ACACAD;
+  padding: 20px;
+}
+
+.uranus-content .uraimage {
+  margin-top: 60px;
+  margin-left: 250px;
+}
+  
+.neptune{
+  background-image: url(../image/space.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+  width: 1903px;
+}
+
+.neptune-container {
+  position: flex;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin-top: 80px;
+  margin-left: 120px;
+  font-size: 3em;
+  color: #fff;
+  text-shadow: 2px 2px 2px #ACACAD;
+}
+
+.neptune-content {
+  position: flex;
+  display: inline-flex;
+}
+
+.neptune-content .neptune-text{
+  width: 500px;
+  margin-top: 30px;
+  margin-left: 100px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 1px 1px 2px #ACACAD;
+  padding: 20px;
+}
+
+.neptune-content .nepimage {
+  margin-top: 60px;
+  margin-left: 250px;
+}
